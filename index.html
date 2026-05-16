@@ -14,7 +14,7 @@
         <img id="logo" src="assets/logo.svg" alt="Netflix logo" />
         <button id="sign_in_button">Sign In</button>
       </div>
-      <div id="info">
+      <div class="info">
         <h1>Unlimited movies, TV shows, and more</h1>
         <p>Starts at R 59. Cancel anytime.</p>
         <h3>
@@ -36,30 +36,201 @@
       <div class="curve-in">
         <div class="curve-out"></div>
       </div>
+      <!-- <h2>Trending Now</h2> -->
     </header>
-    <main></main>
+    <main>
+      <div id="trending">
+        <h2>Trending Now</h2>
+        <div class="movie-slideshow">
+          <div id="movie1">
+            <span>1</span>
+          </div>
+          <div id="movie2">
+            <span>2</span>
+          </div>
+          <div id="movie3">
+            <span>3</span>
+          </div>
+          <div id="movie4">
+            <span>4</span>
+          </div>
+          <div id="movie5">
+            <span>5</span>
+          </div>
+          <div id="side_button">
+            <button id="next-button">
+              <img src="assets/next-movie-button.svg" alt="next button" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- second section of the main -->
+      <h2>More Reasons to Join</h2>
+      <div id="reasons-container">
+        <div id="reasons1">
+          <div class="text-container">
+            <h3>Enjoy on your TV</h3>
+            <p>
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+              Blu-ray players, and more.
+            </p>
+            <img src="assets/tv_icon.svg" alt="tv icon" />
+          </div>
+        </div>
+        <div id="reasons2">
+          <div class="text-container">
+            <h3>Download your shows to watch offline</h3>
+            <p>
+              Save your favorites easily and always have something to watch.
+            </p>
+            <img src="assets/arrow_icon.svg" alt="arrow icon" />
+          </div>
+        </div>
+        <div id="reasons3">
+          <div class="text-container">
+            <h3>Watch everywhere</h3>
+            <p>
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </p>
+            <img src="assets/comet_icon.svg" alt="comet icon" />
+          </div>
+        </div>
+        <div id="reasons4">
+          <div class="text-container">
+            <h3>Create profiles for kids</h3>
+            <p>
+              Send kids on adventures with their favorite characters in a space
+              made just for them — free with your membership.
+            </p>
+            <img src="assets/square_icons.svg" alt="kids profile icon" />
+          </div>
+        </div>
+      </div>
+      <!-- faq section / third section -->
+      <div id="faq-container">
+        <h2>Frequently Asked Questions</h2>
+        <details>
+          <summary>What is Netflix?</summary>
+          <p>Netflix is a streaming service with movies and shows online.</p>
+        </details>
+
+        <details>
+          <summary>How much does Netflix cost?</summary>
+          <p>Plans start from X per month depending on your region.</p>
+        </details>
+
+        <details>
+          <summary>Where can I watch?</summary>
+          <p>
+            Watch anywhere, anytime. Sign in with your Netflix account to watch
+            instantly on the web at netflix.com from your personal computer or
+            on any internet-connected device that offers the Netflix app,
+            including smart TVs, smartphones, tablets, streaming media players
+            and game consoles. You can also download your favorite shows with
+            the iOS or Android app. Use downloads to watch while you're on the
+            go and without an internet connection. Take Netflix with you
+            anywhere.
+          </p>
+        </details>
+
+        <details>
+          <summary>How do I cancel?</summary>
+          <p>
+            Netflix is flexible. You can easily cancel your account online in
+            two clicks. There are no cancellation fees – start or stop your
+            account anytime.
+          </p>
+        </details>
+
+        <details>
+          <summary>What can I watch on Netflix?</summary>
+          <p>
+            Netflix has an extensive library of feature films, documentaries, TV
+            shows, anime, award-winning Netflix originals, and more. Watch as
+            much as you want, anytime you want.
+          </p>
+        </details>
+
+        <details>
+          <summary>Is Netflix good for kids?</summary>
+          <p>
+            The Netflix Kids experience is included in your membership to give
+            parents control while kids enjoy family-friendly TV shows and movies
+            in their own space. Kids profiles come with PIN-protected parental
+            controls that let you restrict the maturity rating of content kids
+            can watch and block specific titles you don’t want kids to see.
+          </p>
+        </details>
+      </div>
+      <!-- small section form and button -->
+      <div id="rectangle-wrap">
+        <h3>
+          Ready to watch? Enter your email to create or restart your membership.
+        </h3>
+        <div id="rectangle-box">
+          <div class="form_button_wrapper">
+            <form>
+              <label for="Email Address">Email address </label>
+            </form>
+            <button class="started-button">
+              Get Started
+              <img
+                src="assets/button-arrow.svg"
+                alt="greater than sign / arrow"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer section begins here -->
     <footer>
-      <!-- <p>
-        Questions? Call
-        <a href="https://www.netflix.com/za/tel:0800 100 046">0800 100 046</a>
+      <div id="netflix-tel">
+        <p>
+          Questions? Call
+          <a href="https://www.netflix.com/za/tel:0800 100 046">0800 100 046</a>
+        </p>
+      </div>
+      <div id="footer-list">
+        <ul>
+          <li>FAQ</li>
+          <li>Investor Relations</li>
+          <li>Ways to Watch</li>
+          <li>Corporate Information</li>
+          <li>Only on Netflix</li>
+
+          <li>Help Center</li>
+          <li>Jobs</li>
+          <li>Terms of Use</li>
+          <li>Contact Us</li>
+          <li></li>
+
+          <li>Account</li>
+          <li>Redeem Gift Cards</li>
+          <li>Privacy</li>
+          <li>Speed Test</li>
+          <li></li>
+
+          <li>Media Center</li>
+          <li>Buy Gift Cards</li>
+          <li>Cookie Preferences</li>
+          <li>Legal Notices</li>
+        </ul>
+      </div>
+      <div id="language">
+        <img
+          src="assets/chinese_translation.svg"
+          alt="translation icon"
+        /><select name="SelectLanguage" id="SelectLanguage">
+          <option value="English">English</option>
+        </select>
+        <img src="assets/selectlanguage.svg" alt="drop down" />
+      </div>
+      <p id="netflix-sa">Netflix South Africa</p>
+      <p id="recaptcha">
+        This page is protected by Google reCAPTCHA to ensure you're not a bot.
       </p>
-      <li>FAQ</li>
-      <li>Help Center</li>
-      <li>Account</li>
-      <li>Media Center</li>
-      <li>Investor Relations</li>
-      <li>Jobs</li>
-      <li>Redeem Gift Cards</li>
-      <li>Buy Gift Cards</li>
-      <li>Ways to Watch</li>
-      <li>Terms of Use</li>
-      <li>Privacy</li>
-      <li>Cookie Preferences</li>
-      <li>Corporate Information</li>
-      <li>Contact Us</li>
-      <li>Speed Test</li>
-      <li>Legal Notices</li>
-      <li>Only on Netflix</li> -->
     </footer>
   </body>
 </html>
