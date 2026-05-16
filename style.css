@@ -58,6 +58,7 @@ body {
   font-size: 13px;
   font-weight: 500;
   border: 1px solid #0000;
+  cursor: pointer;
 }
 .info {
   display: flex;
@@ -120,6 +121,7 @@ label {
   position: relative;
   border-radius: 4px;
   border: 1px solid #0000;
+  cursor: pointer;
 }
 .started-button img {
   width: 24px;
@@ -205,6 +207,7 @@ main {
   height: 252px;
   border-radius: 8px;
   position: relative;
+  cursor: pointer;
 }
 span {
   color: rgb(65, 65, 65);
@@ -227,6 +230,7 @@ span {
   height: 252px;
   border-radius: 8px;
   position: relative;
+  cursor: pointer;
 }
 #movie3 {
   background-image: url(assets/movie3.webp);
@@ -237,6 +241,7 @@ span {
   height: 252px;
   border-radius: 8px;
   position: relative;
+  cursor: pointer;
 }
 #movie4 {
   background-image: url(assets/movie4.webp);
@@ -247,6 +252,7 @@ span {
   height: 252px;
   border-radius: 8px;
   position: relative;
+  cursor: pointer;
 }
 #movie5 {
   background-image: url(assets/movie5.webp);
@@ -257,6 +263,7 @@ span {
   height: 252px;
   border-radius: 8px;
   position: relative;
+  cursor: pointer;
 }
 #side_button {
   position: relative;
@@ -271,6 +278,11 @@ span {
   top: 30%;
   border-radius: 8px;
   border: 1px solid #0000;
+  cursor: pointer;
+}
+#next-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgb(255, 255, 255);
 }
 button img {
   width: 24px;
@@ -368,6 +380,10 @@ details summary {
   align-items: center;
   padding-left: 20px;
   background-color: rgb(45, 45, 45);
+  cursor: pointer;
+}
+details summary:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 details p {
@@ -399,13 +415,12 @@ footer ul li {
 }
 #footer-list {
   margin-top: 36px;
-  color: rgba(255, 255, 255, 0.7);
-  text-decoration: underline;
+  /* color: rgba(255, 255, 255, 0.7); */
   columns: 4;
   margin-bottom: 14px;
 }
 
-#footer-list li {
+#footer-list a {
   font-size: 14px;
   line-height: 2.2;
 }
