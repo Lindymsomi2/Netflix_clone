@@ -1,0 +1,204 @@
+@media (max-width: 480px) {
+  body {
+    border: 10px solid blue;
+    padding: 5px 5px 0 5px;
+  }
+
+  header #wrapper {
+    padding: 0 24px;
+  }
+  header #logo {
+    width: 89px;
+    height: 18px;
+    margin-left: 10px;
+  }
+  header #sign_in_button {
+    width: 55px;
+    height: 20px;
+    padding: 2px 8px;
+    font-size: 8px;
+  }
+  header .info {
+    height: 80%;
+    width: 339px;
+    margin: 0 54px;
+    margin: auto;
+    align-self: center;
+    /* padding: 0 32px; */
+  }
+  header h1 {
+    font-size: 34px;
+  }
+  header p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  header h3 {
+    line-height: 24px;
+    text-align: center;
+  }
+  .form_button_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  form {
+    width: 340px;
+    height: 48px;
+    padding: 20px 16px 4px 16px;
+  }
+  label {
+    top: auto;
+    left: auto;
+  }
+  .started-button {
+    text-align: justify;
+    width: 160px;
+    min-height: 48px;
+    padding: 8px 16px;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: auto;
+  }
+  main {
+    padding: 0 24px;
+  }
+  #trending h2 {
+    font-size: 18px;
+  }
+  .movie-slideshow {
+    margin: 12px 0 56px 0;
+  }
+  #movie1 {
+    margin: 4.8px 10px;
+    width: 112px;
+    height: 156px;
+  }
+  span {
+    font-size: 64px;
+    bottom: 1.6px;
+    left: -10px;
+  }
+  #movie2 {
+    margin: 4.8px 10px;
+    width: 112px;
+    height: 156px;
+  }
+  #movie3 {
+    margin: 4.8px 10px;
+    width: 112px;
+    height: 156px;
+  }
+  #movie4 {
+    display: none;
+  }
+  #movie5 {
+    display: none;
+  }
+  #next-button {
+    top: 10%;
+  }
+  #reasons-container {
+    margin-bottom: 56px;
+
+    display: flex;
+    flex-direction: column;
+  }
+  #reasons-container h3 {
+    font-size: 20px;
+    margin: 8px 0 0 0;
+  }
+  #reasons-container p {
+    /* font-size: ; */
+    margin: 8px 0 0 0;
+  }
+  #reasons-container img {
+    width: 64px;
+    height: 64px;
+  }
+
+  #reasons1 {
+    width: 100%;
+    height: auto;
+    margin: 8px 0 0 12px;
+
+    /* height: 198px; */
+  }
+  #reasons2 {
+    width: 100%;
+    height: auto;
+    margin: 8px 0 0 12px;
+
+    /* height: 198px; */
+  }
+  #reasons3 {
+    width: 100%;
+    height: auto;
+    margin: 8px 0 0 12px;
+
+    /* height: 198px; */
+  }
+  #reasons4 {
+    width: 100%;
+    height: auto;
+    margin: 8px 0 0 12px;
+
+    /* height: 198px; */
+  }
+  .text-container {
+    padding: 24px 16px 80px 16px;
+  }
+  #faq-container {
+    margin-bottom: 56px;
+  }
+  #faq-container h2 {
+    font-size: 18px;
+  }
+  #faq-container details {
+    font-size: 18px;
+  }
+  details summary {
+    background-size: 24px 24px;
+  }
+  #rectangle-wrap {
+    margin-bottom: 56px;
+  }
+  #rectangle-wrap h3 {
+    font-size: 15px;
+    justify-content: start;
+  }
+  footer {
+    padding: 0 24px 0 24px;
+  }
+  #netflix-tel p,
+  a {
+    margin-top: 36px;
+    padding: 3px;
+  }
+  #footer-list {
+    /* columns: 0; */
+    display: flex;
+    flex-direction: column;
+  }
+  #footer-list li:empty {
+    display: none;
+  }
+  #recaptcha {
+    font-size: 12px;
+  }
+  #footer-button {
+    display: block;
+  }
+  #footer-button button {
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: 1px solid #0000;
+    width: 100%;
+    height: 38px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 24px 0 24px 0;
+  }
+}
+
+/* (orientation: portrait) */

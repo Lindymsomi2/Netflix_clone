@@ -407,8 +407,11 @@ details p {
   list-style-image: url(assets/plus.svg);
 } */
 footer {
-  padding: 0 148px;
-  padding-bottom: 96px;
+  padding: 0 148px 96px 148px;
+}
+#netflix-tel p,
+a {
+  color: rgba(255, 255, 255, 0.7);
 }
 footer ul li {
   list-style-type: none;
@@ -429,10 +432,6 @@ footer ul li {
   height: 32px; /*  matches line height */
 }
 
-#netflix-tel p,
-a {
-  color: rgba(255, 255, 255, 0.7);
-}
 #language {
   margin-top: 36px;
   width: 124px;
@@ -475,4 +474,7 @@ a {
   margin-top: 36px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.5);
+}
+#footer-button {
+  display: none;
 }
