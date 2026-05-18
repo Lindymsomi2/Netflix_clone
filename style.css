@@ -292,6 +292,19 @@ button img {
   margin-bottom: 64px;
   display: flex;
   justify-content: center;
+  /* position: relative; */
+}
+#trailer-tv {
+  position: relative;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#trailer-tv video {
+  position: absolute;
+  z-index: -1;
+  top: 85px;
 }
 
 #reasons-container {
