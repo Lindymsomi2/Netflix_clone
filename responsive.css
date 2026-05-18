@@ -98,6 +98,17 @@
   #next-button {
     top: 10%;
   }
+  #trailer {
+    margin-bottom: 56px;
+  }
+  #trailer-tv img {
+    width: 100%;
+  }
+  #trailer-tv video {
+    width: 70%;
+    top: 20%;
+  }
+
   #reasons-container {
     margin-bottom: 56px;
 
