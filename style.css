@@ -288,6 +288,12 @@ button img {
   width: 24px;
   height: 24px;
 }
+#trailer {
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: center;
+}
+
 #reasons-container {
   /* margin-top: 16px; */
   display: flex;
