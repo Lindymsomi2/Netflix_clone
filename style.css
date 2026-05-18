@@ -172,8 +172,7 @@ label {
   height: 90px;
   width: 100%;
 
-  background: radial-gradient(ellipse at 50% 0%, rgba(19, 28, 67, 0.8), black)
-    50%;
+  background: radial-gradient(ellipse at 50% 0%, #101636, black) 50%;
   /* background: linear-gradient(180deg, blue, black); */
   position: absolute;
   top: 5px;
